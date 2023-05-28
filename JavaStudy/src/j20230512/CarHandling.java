@@ -26,6 +26,7 @@ public class CarHandling {
 		// speedUp이란 메소드를 호출 하면서 int 150 값을 전달받음
 		morning.speedUp(150);
 		morning.speedDown(30); // 150 - 30 = 120
+		
 		// 객체명(저장된 위치).멤버변수
 		System.out.println("차의 이름은 : " + morning.name);
 		System.out.println("차의 베기량은 : " + morning.output);

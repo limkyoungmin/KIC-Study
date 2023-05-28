@@ -1,7 +1,7 @@
 package j20230515;
 
 // 추상화 -> 직사각형의 면적(객체)를 공통속성, 공통기능 -> 새로운 자료형
-class Rect {
+class Rect3 {
 	// 1. 공통멤버변수
 	private int x;
 	private int y = 10; // 가로, 세로
@@ -64,7 +64,7 @@ public class RectHandling_Answer {
 
 	public static void main(String[] args) {
 
-		Rect r = new Rect(); // 객체 생성(계산할 공간을 생성)
+		Rect3 r = new Rect3(); // 객체 생성(계산할 공간을 생성)
 		System.out.println("r : " + r);
 
 		//r.x = 10; // 2. 객체명.멤버변수 -> 값(X)
